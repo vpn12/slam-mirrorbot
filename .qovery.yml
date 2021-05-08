@@ -1,0 +1,11 @@
+---
+application:
+  name: "slam-mirrorbot"
+  project: "asdf3"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-slam-mirrorbot"
+  routes:
+  - application_name: "slam-mirrorbot"
+    paths:
+    - "/*"
